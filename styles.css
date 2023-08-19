@@ -1,32 +1,34 @@
-   :root
-   {
+body {
     background-color: rgb(135, 206, 235);
-   }
+}
 
-   p:first-child{
+article p:first-child {
     color: white;
     background-color: black;
-   }
-   p:nth-child(2)
-   {
-color: black;
-   }
-   p:last-child {
-  
-  color: red  ;
-   }
-   .pink1{
-    background-color: pink;
-   }
-   ul{
+}
+
+article p:nth-child(2) {
+    color: black;
+}
+
+article p:last-child {
+    color: red;
+}
+
+ul li {
+    background-color: gray;
     width: 50%;
     padding: 10px;
-   }
-   .white1{
-    font-size: 22px;
+}
+
+ul li:nth-child(odd) {
     background-color: white;
-    
-   }
-   .gray1{
-    background-color: gray;
-   }
+}
+
+ul li:first-child, ul li:last-child {
+    font-size: 22px;
+}
+
+ul li:nth-last-child(3) {
+    background-color: pink;
+}
