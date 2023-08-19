@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+   :root
+   {
+    background-color: rgb(135, 206, 235);
+   }
+
+   p:first-child{
+    color: white;
+    background-color: black;
+   }
+   p:nth-child(2)
+   {
+color: black;
+   }
+   p:last-child {
+  
+  color: red  ;
+   }
+   .pink1{
+    background-color: pink;
+   }
+   ul{
+    width: 50%;
+    padding: 10px;
+   }
+   .white1{
+    font-size: 22px;
+    background-color: white;
+    
+   }
+   .gray1{
+    background-color: gray;
+   }
